@@ -1,9 +1,21 @@
 # 一键发 Chrome Web Store 审核页
 
-这是一套面向 Chrome Web Store 网络校验的纯静态镜像。内容与主站一键发产品页、支持页和隐私政策保持一致，不依赖登录、JavaScript 或中国大陆源站动态渲染。
+一键发 Chrome 扩展公开产品、支持与隐私页面
 
-- `/`：产品首页
-- `/support/`：帮助与支持
-- `/privacy/`：隐私政策
+[快速开始](#readme-section-1) · [仓库导航](#readme-section-2)
 
-生产域名为 `yijianfa-store.chaojifeng.me`，由 GitHub Pages 托管；DNS 使用 CNAME 指向 `mileson.github.io`。
+<a id="readme-section-1"></a>
+
+## 快速开始
+
+从 [`index.html`](index.html) 查看站点入口。修改页面或资源后，检查页面内链接、图片和样式，再沿用现有静态托管方式部署。
+
+<a id="readme-section-2"></a>
+
+## 仓库导航
+
+| 入口 | 内容 |
+| --- | --- |
+| [`index.html`](index.html) | 静态站点入口 |
+| [`privacy/`](privacy/) | 隐私政策页面 |
+| [`support/`](support/) | 帮助与支持页面 |
